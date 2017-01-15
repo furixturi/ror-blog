@@ -1,5 +1,5 @@
 CKEDITOR.editorConfig = function(config) {
-	
+
 	config.language = 'en';
 	config.width = '700';
 	config.filebrowserBrowseUrl = "/ckeditor/attachment_files";
@@ -24,7 +24,7 @@ CKEDITOR.editorConfig = function(config) {
 			items: ['TextColor', 'BGColor']
 		}, {
 			name: 'insert',
-			items: ['Image'm 'Table', 'HorizontalRule', 'PageBreak']
+			items: ['Image', 'Table', 'HorizontalRule', 'PageBreak']
 		}
 
 	];
